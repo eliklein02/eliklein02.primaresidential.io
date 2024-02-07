@@ -35,7 +35,7 @@ body {
 .parallax1 {
   height: 100vh;
   width: 100vw;
-  background-image: url('prima2.6.jpg');
+  background-image: url('primahomenew.jpg');
   /* background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.0)), url("prima2.6.jpg"); */
   background-position: center;
   background-attachment: fixed;
@@ -232,6 +232,13 @@ button.fbtn {
   cursor: pointer;
   border: none;
   color: #436f78;
+  border: 2px solid black;
+  padding: 1vh;
+}
+
+button.fbtn:hover {
+  background-color: #b8a379;
+  border: 2px solid white;
 }
 
 .fbtndiv {
@@ -334,7 +341,25 @@ button.fbtn {
 
 
                                         /* property page */
+.parallax1p {
+  display: flex;
+  justify-content: center;
+}
 
+
+.viewourproperties {
+  width: 75%;
+  height: auto;
+  position: absolute;
+  bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2em;
+  font-family: "lust-sans";
+  color: #436f78;
+  font-weight: bolder;
+}
 
 #search-bar {
   width: 100%;
@@ -348,7 +373,7 @@ button.fbtn {
 .searchbar {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15vh;
+  margin-bottom: 5vh;
   width: 60%;
   height: auto;
   color: #436f78;
@@ -356,8 +381,11 @@ button.fbtn {
 
 .checkbox {
   margin-top: 3vh;
+  margin-bottom: 5vh;
   text-align: center;
   font-size: 3vh;
+  display: flex;
+  justify-content: center;
 }
 
 #checkpa {
@@ -378,7 +406,7 @@ button.fbtn {
   flex-direction: row;
   margin-right: auto;
   margin-left: auto;
-  border: 2px solid #436f78;
+  border: 1px solid #436f78;
   margin-bottom: 5vh;
   border-radius: 15px;
 }
@@ -389,7 +417,8 @@ button.fbtn {
   background-repeat: no-repeat;
   width: 50%;
   height: 40vh;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 
 }
 
@@ -399,7 +428,8 @@ button.fbtn {
   background-repeat: no-repeat;
   width: 50%;
   height: 40vh;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 
 }
 
@@ -409,7 +439,8 @@ button.fbtn {
   background-repeat: no-repeat;
   width: 50%;
   height: 40vh;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 
 }
 
@@ -419,8 +450,28 @@ button.fbtn {
   background-repeat: no-repeat;
   width: 50%;
   height: 40vh;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
 
+.propertyimgoceancounty {
+  background-image: url('oceancounty1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 40vh;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.propertyimg232 {
+  background-image: url('232cooper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 40vh;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .propertyinfo {
@@ -464,7 +515,9 @@ button.fbtn {
 
 .jfiframe {
   width: 60%;
-  height: 85%;
+  height: 85vh;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .fmodalx {
@@ -473,4 +526,13 @@ button.fbtn {
   top: 0;
   right: 0;
   color: #dec699;
+}
+
+.hello {
+  color: #436f78;
+  background-color: #dec699;
+  font-size: 1em;
+  border-radius: 5px;
+  width: 20vw;
+  height: 5vh;
 }
